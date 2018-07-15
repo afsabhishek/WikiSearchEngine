@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wiki Search</string>
+    <string name="splash_text">Search your favourite from wikipedia</string>
+    <string name="splash_edit_text">Search Person, Song, Artist , Movie etc</string>
+
+    <string name="no_internet_title">NETWORK ERROR</string>
+    <string name="no_internet">NO INTERNET CONNECTION.PLEASE CHECK YOUR NETWORK SETTINGS AND TRY AGAIN</string>
+    <string name="no_internet_timeout">CONNECTION TIMED OUT</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="success">SUCCESS</string>
+    <string name="error_title">ERROR </string>
+    <string name="alert_title">ALERT !!!</string>
+    <string name="error_message">SERVICE IS UNAVAILABLE</string>
+    <string name="no_network">NO AVAILABLE NETWORK. PLEASE TRY AGAIN LATER</string>
+
+</resources>

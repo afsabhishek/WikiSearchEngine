@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/splashColor"
+
+        android:minHeight="?attr/actionBarSize">
+        <SearchView
+            android:background="#ffffff"
+            android:id="@+id/searchView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search"
+            android:layout_centerHorizontal="true" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SEARCH RESULT"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+        </ListView>
+</LinearLayout>
